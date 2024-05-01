@@ -1,0 +1,30 @@
+.product-right-side-container{
+    // width: 100px;
+    margin-left: 80px;
+    width:250;
+    height: 100;
+}
+
+.Product-form-container{
+    display: flex;
+    justify-content: center;   
+    width: 100vw;
+    height: 100vh;
+    margin-left: 15px; 
+    margin-top: -110px;    
+}
+
+.top-container{
+    width:180px ;
+    height: 40px;
+    position: relative;
+}
+
+.main-container{
+    position: absolute;
+    margin-top: -147px;
+}
+
+.prod-container{
+    height: 100vh;
+}

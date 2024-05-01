@@ -1,0 +1,78 @@
+.layout-footer {
+    transition: margin-left $transitionDuration;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: 1px solid var(--surface-border);
+}
+
+.footer {
+    background-color: black;
+    font-family: 'DM Sans';
+    letter-spacing: 1px;
+
+    .text-dim {
+        color: rgba(255, 255, 255, 0.655);
+    }
+
+    hr {
+        width: 80%;
+        color: rgba(255, 255, 255, 0.655);
+    }
+
+    h6,
+    h4 {
+        color: $color-green;
+    }
+
+    .information {
+        .information-link {
+            padding-bottom: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'DM Sans';
+        }
+    }
+
+    .collapase-header {
+        padding-bottom: 10px;
+        cursor: pointer;
+
+        .icon {
+            padding-right: 5px;
+            font-size: 12px;;
+        }
+    }
+
+
+    .social-icons {
+        .social-link {
+            padding-bottom: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'DM Sans';
+        }
+
+        .fa-brands {
+            padding-right: 9px;
+        }
+    }
+
+    .contact-details {
+        font-size: 11px;
+
+    }
+
+    .contact-details-title {
+        font-size: 13px;
+
+    }
+
+    .contact-hr-divider {
+        margin: 0px;
+        margin-bottom: 5px;
+        color: rgba(255, 255, 255, 0.655);
+    }
+
+}

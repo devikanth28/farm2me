@@ -1,0 +1,31 @@
+.payment-card {
+    background: var(--surface-card);
+    border: 1px solid var(--surface-border);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    box-shadow: var(--card-shadow);
+    border-radius: 12px;
+}
+
+.payment-image-right  img{
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+    // padding-top: 50px;
+
+}
+
+.payment-mode-image {
+    // width: 1px;
+    height: 1px;
+}
+.Address-form-container{
+    // padding: 40px 40px;
+    .p-card{
+        box-shadow: none !important;
+      }
+    .user-page{
+        margin: 0 2rem;
+    }
+}
+

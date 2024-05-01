@@ -1,0 +1,29 @@
+[
+    {
+      "bannerId": 1,
+      "bannerName": "Banner 1",
+      "image": "../assests/images/Ellipse 2.png",
+      "startDate": "2023-09-01",
+      "endDate": "2023-09-15",
+      "url": "https://example.com/banner1",
+      "action": "edit"
+    },
+    {
+        "bannerId": 2,
+        "bannerName": "Banner 2",
+        "image": "../assests/images/Ellipse 3.png",
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-15",
+        "url": "https://example.com/banner1",
+        "action": "edit"
+      },{
+        "bannerId": 3,
+        "bannerName": "Banner 3",
+        "image": "../assests/images/Ellipse 4.png",
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-15",
+        "url": "https://example.com/banner1",
+        "action": "edit"
+      }
+  ]
+  

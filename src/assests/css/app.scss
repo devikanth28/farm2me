@@ -1,0 +1,23 @@
+@import './layout/layout';
+@import './bread-crumb/bread-crumb';
+@import './login/login';
+@import './common/common';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400;1,9..40,500;1,9..40,700&display=swap');
+
+@import './user-address/user-address';
+@import './profile/password.scss';
+@import'./profile/userprofile.scss';
+@import './products/products';
+@import './products/single-product';
+
+@import './carts/CartIcon.scss';
+@import './carts/CartItems.scss';
+
+@import './payment/payment.scss';
+
+@import './orders/orders.scss';
+
+@import './measurement/measurement.scss';
+@import './app-loading/app-loading.scss';
+@import './signin/signin.scss';

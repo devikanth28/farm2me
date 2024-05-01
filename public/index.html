@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <base href="%PUBLIC_URL%/">
+  <link rel="icon" href="%PUBLIC_URL%/assests/images/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Farm 2 Me" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Farm2Me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/regular.min.css"
+    integrity="sha512-rOTVxSYNb4+/vo9pLIcNAv9yQVpC8DNcFDWPoc+gTv9SLu5H8W0Dn7QA4ffLHKA0wysdo6C5iqc+2LEO1miAow=="
+    crossorigin="anonymous referrerpolicy=" no-referrer />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css" integrity="sha512-
+P9pgMgcSNlLb4Z2WAB2sH5KBKGnBfyJnq+bhcfLCFusrRc4XdXrhfDluBl/usq75NF5gTDIMcwI1GaG5gju+Mw=="
+    crossorigin="anonymous referrerpolicy=" no-referrer />
+  <script src="https://kit.fontawesome.com/04654ea565.js" crossOrigin="anonymous"></script>
+  <style>
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .l-loader-animated {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 120px;
+      height: 120px;
+      margin: -60px 0 0 -60px;
+      animation: spin 4s linear infinite;
+      vertical-align: middle;
+    }
+
+    .l-loader-logo {
+      position: absolute;
+      left: 45.5%;
+      top: 46%;
+      vertical-align: middle;
+    }
+
+    .l-displaygird {
+      display: grid;
+      place-items: center !important;
+    }
+
+    .l-pause-loading {
+      display: block;
+      background: rgba(255, 255, 255, 0.678) no-repeat 0 0;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="l-displaygird l-pause-loading" id="l-loading-screen">
+    <img src="./assests/images/loader-animated-loading.png" alt="" width="200" class="l-loader-animated" />
+    <img src="./assests/images/loader-animated-logo.png" alt="" width="80" class="l-loader-logo" />
+  </div>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script>
+    window.addEventListener('load', function () {
+      document.getElementById("l-loading-screen").style.display = "none";
+    });
+  </script>
+</body>
+
+</html>

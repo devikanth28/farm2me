@@ -1,0 +1,21 @@
+
+[
+    {
+        "id": 1,
+        "day": "Monday",
+        "time": "Before 9 pm",
+        "action": ""
+    },
+    {
+        "id": 2,
+        "day": "Tuesday",
+        "time": "12 noon to 3pm",
+        "action": ""
+    },  
+    {
+        "id": 3,
+        "day": "Thursday",
+        "time": "After 6pm",
+        "action": ""
+    }
+]

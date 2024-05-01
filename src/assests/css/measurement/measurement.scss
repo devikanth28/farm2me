@@ -1,0 +1,20 @@
+
+.measurement-toolbar {
+    padding: 0;
+    border: 0;
+}
+.search-header{
+    margin-left: auto;
+}
+.measure-dialog-delete {
+    width: 32rem;
+    background: #fff;
+      
+@media (max-width: 576px) {
+    width: 100%;
+    margin: 14px;
+}
+    .p-dialog-header{
+        padding: 12px 20px !important;
+    }
+}

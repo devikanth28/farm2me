@@ -1,0 +1,95 @@
+.user-address-card {
+  margin: 0px 40px;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+
+  .p-card-title {
+    font-weight: 700;
+    font-size: 16px;
+    border-bottom: 1px solid $color-grey;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+  }
+
+  .edit-address {
+    color: #02a0fc;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .delete-address {
+    color: #ff0000;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .address-box {
+    border-radius: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #a6a6a6;
+    padding: 10px;
+  }
+
+  .add-address-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .p-input-icon-left>i.text-area-icon {
+    margin-top: -20px;
+
+  }
+
+  .p-input-icon-left {
+    i.fa-solid.fa-user {
+      .fa-user {
+        color: #bababb !important;
+      }
+
+    }
+  }
+
+  .get-location-btn {
+    margin: 10px 4px;
+  }
+}
+
+.history-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.bg-light-green {
+  background-color: #e2f4ed;
+
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+.order-top-color {
+  height: auto;
+}
+
+.dialog-delete-add {
+  @media (max-width: 767px) {
+    width: 100% !important;
+    padding: 12px;
+  }
+}
+
+.box-info {
+  background-color: #e2f4ed !important;
+  color: #0000008f;
+}
+
+.label-semi-bold {
+  .required {
+    padding-left: 0.5rem;
+  }
+}

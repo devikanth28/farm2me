@@ -1,0 +1,58 @@
+.panel-header-text {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.label-semi-bold {
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.small-help-text {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: grey;
+}
+
+.login-panel {
+  max-width: 400px;
+  width: 100%;
+  .fa-solid {
+    color: $color-grey3 !important;
+  }
+}
+
+.dont-have-anaccount {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.primary-text-color {
+  color: var(--primary-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.link-text {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.right-align {
+  float: right;
+  font-size: 14px;
+}
+
+.get-otp-btn {
+  margin-top: 30px;
+  @media (max-width: 991px) {
+    margin-top: 10px;
+  }
+  .p-button-label {
+    font-weight: 500;
+    font-size: 13px;
+  }
+}

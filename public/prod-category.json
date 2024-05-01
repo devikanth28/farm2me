@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "name": "Oils",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 1,
+                "name": "Groundnut Oil",
+                "imagePath": null
+            },
+            {
+                "id": 2,
+                "name": "Sesame Oil",
+                "imagePath": null
+            },
+            {
+                "id": 3,
+                "name": "Coconut Oil",
+                "imagePath": null
+            },
+            {
+                "id": 4,
+                "name": "Niger Oil",
+                "imagePath": null
+            },
+            {
+                "id": 5,
+                "name": "Safflower Oil",
+                "imagePath": null
+            },
+            {
+                "id": 6,
+                "name": "Other Oils",
+                "imagePath": null
+            },
+            {
+                "id": 7,
+                "name": "Mustard Seed Oil",
+                "imagePath": null
+            },
+            {
+                "id": 8,
+                "name": "Sunflower Seed Oil",
+                "imagePath": null
+            },
+            {
+                "id": 9,
+                "name": "Flax Seed Oil",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Millets",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 10,
+                "name": "Unpolished Millets",
+                "imagePath": null
+            },
+            {
+                "id": 11,
+                "name": "Millets Rava",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Snacks",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 12,
+                "name": "Millet-Snacks",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Soaps",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 13,
+                "name": "Natural Soaps",
+                "imagePath": null
+            },
+            {
+                "id": 14,
+                "name": "Bathing Essentials - Others",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Pulses and Dals",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 15,
+                "name": "Dals",
+                "imagePath": null
+            },
+            {
+                "id": 16,
+                "name": "Flours",
+                "imagePath": null
+            },
+            {
+                "id": 17,
+                "name": "Pulses",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Gou Products",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 18,
+                "name": "Gou. Products",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Oil Seeds",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 19,
+                "name": "Oil Seeds Products",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Spices",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 20,
+                "name": "Spices Products",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Sweets",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 21,
+                "name": "Honey",
+                "imagePath": null
+            },
+            {
+                "id": 22,
+                "name": "Jaggery",
+                "imagePath": null
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Others",
+        "imagePath": null,
+        "subCategories": [
+            {
+                "id": 23,
+                "name": "Products",
+                "imagePath": null
+            },
+            {
+                "id": 24,
+                "name": "Animal Feeds",
+                "imagePath": null
+            }
+        ]
+    }
+]

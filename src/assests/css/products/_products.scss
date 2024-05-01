@@ -1,0 +1,130 @@
+.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    // text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+    margin-left: 20px;
+
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    margin-left: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs {
+    width: 100px;
+    height: 100px;
+}
+
+.filter {
+    border: 1;
+    width: 20vw;
+    height: 108vh;
+    padding: 2px;
+}
+
+.product {
+    border: 1;
+    width: 75vw;
+    height: 108vh;
+    margin-left: 6px;
+}
+
+.buttons {
+    display: inline-block;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.filledHeart {
+    color: red;
+    cursor: pointer;
+}
+
+.top-header {
+    margin-top: 1rem !important;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+
+.sidebar {
+    position: relative;
+    width: 50px;
+    margin-left: -35px;
+
+    .categories-wrap {
+        margin-left: 50px;
+    }
+
+    .toggle-btn {
+        width: 35px;
+        height: 35px;
+        padding: 0.2rem;
+        position: absolute;
+        left: 0.5rem;
+        top: 2.3rem;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        line-height: normal;
+        cursor: pointer;
+
+        span {
+            padding: 0;
+            margin: 0;
+            font-size: 1.4rem;
+        }
+    }
+
+    &.expand {
+        width: 350px;
+        margin-right: 1rem;
+
+        .toggle-btn {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.xs-view {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .xs-hide {
+        display: none;
+    }
+
+    .xs-view {
+        display: block;
+    }
+
+    .flex.xs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .grid.layout-content {
+        align-items: baseline;
+    }
+}
+
+.top-carousel {
+    .p-carousel .p-carousel-item {
+        flex: 1 0 12.5%;
+    }
+}
